@@ -1,0 +1,40 @@
+{
+  "name": "ai-tattoo-rework",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@upstash/ratelimit": "^2.0.6",
+    "@upstash/redis": "^1.35.4",
+    "@vercel/blob": "^2.0.0",
+    "form-data": "^4.0.4",
+    "lucide-react": "^0.544.0",
+    "next": "14.0.0",
+    "pdf-lib": "^1.17.1",
+    "potrace": "^2.1.8",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sharp": "^0.33.5",
+    "stripe": "^14.25.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.0.0"
+  }
+}
