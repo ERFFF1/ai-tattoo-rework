@@ -1,0 +1,15 @@
+# Ignore problematic files during build
+node_modules
+.next
+.git
+.DS_Store
+*.log
+coverage
+.nyc_output
+.cache
+.parcel-cache
+.vscode
+.idea
+*.swp
+*.swo
+*~

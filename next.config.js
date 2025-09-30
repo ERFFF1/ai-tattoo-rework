@@ -3,23 +3,9 @@ const nextConfig = {
   // Optimize output
   output: 'standalone',
   
-  // Reduce bundle size
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        net: false,
-        tls: false,
-      };
-    }
-    return config;
-  },
-  
-  // Optimize images
-  images: {
-    domains: ['picsum.photos'],
-    formats: ['image/webp', 'image/avif'],
+  // Disable build trace collection
+  generateBuildId: async () => {
+    return 'build-' + Date.now()
   },
 }
 
