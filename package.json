@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NEXT_BUILD_TRACE=0 next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test:e2e": "playwright test"
@@ -16,7 +16,7 @@
     "@vercel/blob": "^2.0.0",
     "form-data": "^4.0.4",
     "lucide-react": "^0.544.0",
-    "next": "14.0.0",
+    "next": "13.5.6",
     "pdf-lib": "^1.17.1",
     "potrace": "^2.1.8",
     "react": "^18.0.0",
