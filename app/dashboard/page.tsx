@@ -513,6 +513,11 @@ export default function ProDashboard() {
       <footer className="border-t bg-white/60 py-6 text-center text-xs text-neutral-500">
         © {new Date().getFullYear()} AI Tattoo Rework • Pro UI v1.3
       </footer>
+
+      {/* Test rozeti - Tailwind çalışıyor mu kontrol et */}
+      <div className="fixed bottom-2 right-2 z-[9999] rounded bg-emerald-600 px-2 py-1 text-xs text-white">
+        TW OK
+      </div>
     </div>
   );
 }
